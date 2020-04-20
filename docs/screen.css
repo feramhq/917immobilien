@@ -8,6 +8,26 @@
 
 body {
   font-family: Helvetica;
+  padding-bottom: 2em;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+  margin: 2em 0;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul {
+  margin-left: 2em;
+}
+
+li {
+  margin-bottom: 0.8em;
 }
 
 main {
@@ -19,8 +39,9 @@ nav {
   width: 100%;
   background-color: lightblue;
   padding: 0 1.6em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   line-height: 3rem;
+  border-radius: 0 0 5px 5px;
 }
 
 nav h1 {
@@ -37,4 +58,11 @@ nav a.nav-link {
   display: inline-block;
   margin: 0 1em;
   color: dimgray;
+}
+
+#iwModule {
+  box-shadow: 0 0 2px gray;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 3em !important;
 }
