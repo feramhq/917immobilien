@@ -9,6 +9,7 @@
 body {
   font-family: Helvetica;
   padding-bottom: 2em;
+  background-color: hsl(0,0%,95%);
 }
 
 hr {
@@ -30,6 +31,24 @@ li {
   margin-bottom: 0.8em;
 }
 
+/*h1 a {
+  position: relative;
+  left: -9999px;
+}*/
+
+h1 {
+  padding-left: 3em;
+  background-image: url(icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: hsl(0,0%,30%);
+  font-size: 1.2rem;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
 main {
   width: 840px;
   margin: 0 auto;
@@ -37,7 +56,7 @@ main {
 
 nav {
   width: 100%;
-  background-color: lightblue;
+  background-color: white;
   padding: 0 1.6em;
   margin-bottom: 1.5em;
   line-height: 3rem;
